@@ -1,0 +1,4 @@
+<% @flats.each do |flat| %>
+<p><%= link_to flat["name"], flat_path(flat['id'], bolinho: 'de ovo') %></p>
+<% end %>
+
